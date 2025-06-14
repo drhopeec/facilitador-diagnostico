@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diagnóstico para Facilitadores de Experiencias Psicodélicas</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    />
+</head>
+<body>
+    <main class="quiz-container">
+        <!-- PANTALLA DE INICIO -->
+        <section id="intro-screen">
+            <div class="quiz-header">
+                <h1>Diagnóstico de Habilidades Clínicas</h1>
+                <p style="color: var(--gray);">Para Facilitadores de Experiencias Psicodélicas</p>
+            </div>
+            <div class="quiz-body">
+                <p>Esta herramienta no es un simple test. Es un diagnóstico diseñado para evaluar tu razonamiento clínico en escenarios desafiantes reales.</p>
+                <p>Descubre tu nivel de preparación actual y obtén una visión clara de cómo llevar tu habilidad de acompañamiento al nivel de la excelencia clínica.</p>
+            </div>
+            <div class="quiz-footer">
+                <button id="start-btn" class="btn btn-primary">Comenzar Diagnóstico</button>
+            </div>
+        </section>
+
+        <!-- PANTALLA DEL QUIZ -->
+        <section id="quiz-screen" class="hidden">
+            <div class="quiz-header">
+                <div id="question-counter" aria-live="polite"></div>
+                <h2 id="question-title"></h2>
+            </div>
+            <div class="quiz-body">
+                <p id="question-scenario"></p>
+                <div id="options-container" role="radiogroup" aria-labelledby="question-title"></div>
+                <div class="hint-container">
+                    <button id="hint-btn" class="hint-btn" aria-expanded="false">Mostrar Pista</button>
+                    <div id="hint-text" class="hidden" role="tooltip"></div>
+                </div>
+                <div id="feedback-container" class="hidden" aria-live="assertive"></div>
+            </div>
+            <div class="quiz-footer">
+                <button id="next-btn" class="btn btn-primary hidden">Siguiente</button>
+            </div>
+        </section>
+
+        <!-- PANTALLA DE RESULTADOS -->
+        <section id="results-screen" class="hidden">
+            <div class="quiz-header">
+                <h1>Resultados del Diagnóstico</h1>
+            </div>
+            <div class="quiz-body">
+                <div id="results-summary" aria-live="assertive"></div>
+
+                <div id="revelation-block">
+                    <h3>El Principio que lo Cambia Todo: Intención vs. Impacto</h3>
+                    <p>Tu puntuación en este diagnóstico refleja tu nivel de dominio sobre una verdad fundamental en el acompañamiento psicodélico: <strong>tus palabras nunca son neutrales.</strong></p>
+                    <p>Un acompañamiento clínico de excelencia no se basa en tener buenas intenciones, sino en dominar un lenguaje que garantice un impacto positivo.</p>
+                    <p><strong>Este es el primer paso para pasar de ser un "cuidador" bienintencionado a un facilitador clínico efectivo.</strong></p>
+                </div>
+
+                <div id="cta-block">
+                    <p id="cta-text"></p>
+                    <a
+                        id="cta-link"
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="cta-btn"
+                        role="button"
+                    >Solicita más información sobre el minicurso</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/quiz.js" defer></script>
+</body>
+</html>
