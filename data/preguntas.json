@@ -1,0 +1,35 @@
+[
+    {
+        "question": "¿Cuál es la intervención verbal más precisa en este momento?",
+        "scenario": "Un participante lleva varios minutos en silencio, con los ojos cerrados pero con una tensión visible en la mandíbula y los puños apretados. Su respiración es superficial.",
+        "hint": "¿Tu rol es ser un faro que ilumina con su presencia o un capitán que toma el timón del barco?",
+        "options": [
+            { "text": "Veo que hay mucha tensión en tu cuerpo. Solo quiero que sepas que estoy aquí contigo. No hay prisa.", "weight": 2, "feedback": { "title": "Razonamiento Correcto", "text": "Esta es la opción más efectiva. Valida la experiencia no verbal del participante ('Veo la tensión'), ofrece presencia incondicional ('estoy aquí contigo') y elimina la presión del tiempo ('No hay prisa'). Respeta el proceso interno sin dirigirlo, creando un contenedor de seguridad." }},
+            { "text": "Necesitas soltar ese control. Respira profundo y déjate llevar para que la medicina funcione.", "weight": 0, "feedback": { "title": "Riesgo", "text": "Esta frase, aunque bien intencionada, es directiva e invalidante. Asume que el participante está 'controlando' voluntariamente y le impone una orden ('déjate llevar'), lo que puede aumentar su ansiedad si siente que no puede cumplirla." }},
+            { "text": "¿Qué estás viendo en tu mente? Es importante que me lo cuentes para poder guiarte.", "weight": 1, "feedback": { "title": "Riesgo Plausible", "text": "Presiona al participante para que verbalice una experiencia que puede ser pre-verbal o demasiado compleja. Interrumpe su proceso interno para satisfacer la necesidad de información del facilitador. La exploración debe ser una invitación, no una exigencia." }},
+            { "text": "Vamos a enfocarnos en la respiración. Inhala en 4 segundos, sostén en 7, exhala en 8. Hagámoslo juntos.", "weight": 1, "feedback": { "title": "Riesgo Plausible", "text": "Aunque las técnicas de respiración son útiles, imponer un ejercicio específico sin una invitación previa puede ser una distracción o una interrupción forzada del proceso. Es más efectivo anclar en la respiración natural del participante antes de sugerir cambios." }}
+        ]
+    },
+    {
+        "question": "¿Qué respuesta ofrece seguridad sin invalidar la intensidad de su miedo?",
+        "scenario": "El participante abre los ojos con pánico y dice: '¡Esto es demasiado! ¡Siento que me estoy volviendo loco, que no voy a regresar!'.",
+        "hint": "Ante un incendio, ¿tu primera acción es analizar la química del fuego o asegurarte de que la persona se sienta a salvo lejos de las llamas?",
+        "options": [
+            { "text": "Tranquilo, es solo el efecto del hongo. En unas horas estarás bien, no te estás volviendo loco.", "weight": 0, "feedback": { "title": "Riesgo", "text": "Aunque intenta tranquilizar, la frase 'es solo el efecto' minimiza la aterradora realidad subjetiva del participante. Invalida su experiencia, lo que puede hacer que se sienta incomprendido y más aislado en su miedo." }},
+            { "text": "Suena increíblemente abrumador. Es una sensación muy potente, y es comprensible que asuste. Estoy aquí para asegurarme de que estás a salvo.", "weight": 2, "feedback": { "title": "Razonamiento Correcto", "text": "Esta respuesta es ideal. Valida la emoción ('Suena increíblemente abrumador'), normaliza la intensidad ('Es una sensación muy potente') y reafirma la seguridad de manera contundente ('Estoy aquí para asegurarme de que estás a salvo'). No niega la experiencia, la acompaña." }},
+            { "text": "Esa sensación de perder el control es justo lo que buscamos. Ríndete a la locura, es el camino a la sanación.", "weight": 0, "feedback": { "title": "Peligroso", "text": "Esta es una romantización peligrosa del malestar. Para alguien que teme por su cordura, la orden de 'rendirse a la locura' puede ser interpretada como un abandono y percibirse como una confirmación de su peor miedo, exacerbando el pánico." }},
+            { "text": "Describe la locura. ¿A qué se parece? ¿Qué colores tiene? Analicémosla.", "weight": 1, "feedback": { "title": "Inapropiado en el Momento", "text": "Intentar un análisis intelectual en un pico de terror es ineficaz. La parte racional del cerebro del participante está secuestrada por el miedo. Esta pregunta ignora la necesidad emocional primaria (seguridad) en favor de la curiosidad intelectual." }}
+        ]
+    },
+    {
+        "question": "¿Cuál es tu rol como facilitador en este momento crítico?",
+        "scenario": "Una persona comienza a llorar de forma desconsolada, reviviendo visiblemente un recuerdo doloroso. Dice entre sollozos: 'No quiero sentir esto... duele demasiado'.",
+        "hint": "Cuando alguien se abre una herida, ¿le pides que describa el accidente o primero te aseguras de que el entorno esté limpio y le ofreces un paño para contener la hemorragia?",
+        "options": [
+            { "text": "Animarle a que no evite el dolor, recordándole que vino a sanar y que debe atravesarlo para liberarlo.", "weight": 0, "feedback": { "title": "Riesgo", "text": "Esto es aplicar presión. Aunque la intención es buena, frases como 'debes atravesarlo' pueden generar una sensación de obligación y fracaso si el participante siente que no puede soportar el dolor, invalidando su ritmo natural de procesamiento." }},
+            { "text": "Crear un espacio seguro con tu presencia calmada, permitiendo que el llanto y el dolor fluyan sin interrupción y ofreciendo frases cortas de apoyo como 'Estoy contigo en esto'.", "weight": 2, "feedback": { "title": "Razonamiento Correcto", "text": "Esta es la encarnación del 'sentarse, no guiar'. Tu presencia calmada es el ancla. Permitir la expresión emocional sin dirigirla ni juzgarla es la intervención más poderosa. Valida el dolor y ofrece apoyo incondicional, la base para el procesamiento seguro de un trauma." }},
+            { "text": "Distraerle sutilmente del dolor, preguntándole si quiere escuchar otra música o si prefiere un vaso de agua para cambiar el estado.", "weight": 0, "feedback": { "title": "Invalidante", "text": "La distracción es una forma de evitación. Sugiere que su emoción es inapropiada o demasiado incómoda para el facilitador. Esto rompe la confianza y le enseña al participante que sus sentimientos profundos no son bienvenidos." }},
+            { "text": "Preguntarle activamente por los detalles del recuerdo traumático para ayudarle a procesarlo en el momento.", "weight": 1, "feedback": { "title": "Peligroso", "text": "Intentar una 'cirugía' psicológica en medio de una reviviscencia traumática sin una preparación y un contexto adecuados es imprudente. Puede ser abrumador y potencialmente retraumatizante. La prioridad es la estabilización y la seguridad, no la excavación." }}
+        ]
+    }
+]
